@@ -32,6 +32,7 @@
   width: auto;
 }
 
+/*white outline for contact box */
 .contact-box {
   border: 2px solid white;
   padding: 6px 12px;
@@ -65,12 +66,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: transparent;
 }
 
 .hero-content {
   width: 945px;
   height: 232px;
-  background: rgba(0, 3, 36, 0.525);
+  background: rgba(0, 3, 36, 0.7); /* only this box is blue */
   color: white;
   text-align: center;
   display: flex;
@@ -86,3 +88,5 @@
     height: auto;
   }
 }
+
+
