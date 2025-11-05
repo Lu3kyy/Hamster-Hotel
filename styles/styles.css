@@ -111,13 +111,15 @@
 }
 
 .about-left img {
-  width: 369px;
-  height: 416px;
-  object-fit: cover;
+  width: 100%;
+  max-width: 369px;
+  height: 416px;      /* fixed height from your spec */
+  object-fit: cover;  /* ensures it crops, not stretches */
   border-radius: 0;
   opacity: 1;
   display: block;
 }
+
 
 .about-content {
   max-width: 600px; 
@@ -165,9 +167,10 @@
   }
 
   .about-left img {
-    width: 250px;
-    height: auto;
+    width: 0px;
+    height: 0px;
   }
+
 
   .award-images {
     justify-content: center;
