@@ -91,11 +91,10 @@
 
 .about-left img {
   width: 100%;
-  max-width: 369px;
-  height: 416px;
-  object-fit: cover;
-  display: block;
+  height: 330px; 
+  object-fit: contain; 
 }
+
 
 .about-content {
   max-width: 600px;
@@ -287,9 +286,8 @@
   text-decoration: underline;
 }
 
-/* 
-   GLOBAL
-*/
+ 
+
 html {
   scroll-behavior: smooth;
 }
@@ -474,9 +472,7 @@ html {
   letter-spacing: 0.5px;
 }
 
-/* 
-   UNIFIED RESPONSIVE (max-width: 768px)
-*/
+
 @media (max-width: 768px) {
   /* Header */
   .header-nav {
